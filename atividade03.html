@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+</head>
+<body>
+    <br>
+    <h2>Manutenção de Usuários do Sistema Interno</h2>
+    <br>
+    <form>
+        <fieldset>
+            <legend><h3>Dados Pessoais</h3></legend>
+            <label for="nome" >Nome Completo</label>
+            <input type="text" id="nome" placeholder="Insira seu nome" required/>
+            <br><br>
+            <label for="endereco" >Endereço</label>
+            <input type="text" id="endereco" placeholder="Digite seu endereço" required/>
+            <br><br>
+            <label for="cidade" >Cidade</label>
+            <input type="text" id="cidade" placeholder="Digite sua cidade" required/>
+            <br><br>
+            <label for="nome" >Nome Completo</label>
+            <input type="text" id="nome" placeholder="Insira seu nome" required/>
+            <br><br>
+            <label for="cidade">Informe o Estado</label>
+			<select id="cidade">
+				<option>São Paulo</option>
+				<option>Rio de Janeiro</option>
+				<option>Minas Gerais</option>
+				<option>Fortaleza</option>
+			</select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><h3>Dados Profissionais</h3></legend>
+            <label for="nome" >Natureza do Cargo</label>
+            <br>
+            <input type="radio" id="gerencia" name="dado" />
+			<label for="gerencia">Gerncia</label>
+			<input type="radio" id="Financeiro" name="dado"/>
+			<label for="Financeiro">Financeiro</label>
+			<input type="radio" id="recepcao" name="dado"/>
+			<label for="recepcao">Recepção</label>
+            <input type="radio" id="adm" name="dado"/>
+			<label for="adm">Administrativo</label>
+            <input type="radio" id="juridico" name="dado"/>
+			<label for="juridico">Jurídico</label>
+            <br><br>
+            <label for="nome" >Área de Interesse</label>
+            <br>
+            <input type="checkbox" id="computacao/>
+			<label for="computacao">Computação</label>
+			<input type="checkbox" id="bio"/>
+			<label for="bio">Biologia</label>
+			<input type="checkbox" id="meio"/>
+			<label for="meio">Meio Ambiente</label>
+			<input type="checkbox" id="eng"/>
+			<label for="eng">Engenharia</label>
+            <input type="checkbox" id="hist"/>
+			<label for="hist">História</label>
+            <br><br>
+            <label for="nome" >Mini Currículo</label>
+            <br>
+            <textarea id="info"></textarea>
+            </fieldset>
+            <br>
+            <input type="reset" value="Limpar Form"/>
+			<input type="submit" />
+    </form>
+    </body>
+</html>

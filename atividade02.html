@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <br>
+    <h2>Manutenção de Usuários do Sistema Interno</h2>
+    <br>
+    <form>
+        <label for="nome" >Nome Completo</label>
+        <input type="text" id="nome" placeholder="Insira seu nome" />
+        <br><br>
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" placeholder="Insira sua senha"/>
+        <br><br>
+        <label for="cidade">Status</label>
+			<select id="Status">
+				<option>Ativo</option>
+				<option>Inativo</option>
+			</select>
+        <br><br>
+        <fieldset>
+				<legend>Tipo</legend>
+				<input type="radio" id="Técnico" name="tipo" />
+				<label for="masc">Técnico</label>
+				<input type="radio" id="Professor" name="tipo"/>
+				<label for="fem">Professor</label>
+				<input type="radio" id="Aluno" name="tipo"/>
+				<label for="outros">Aluno</label>
+			</fieldset>
+        <br><br>
+        <label for="Data">Data de Criação</label>
+		<input id="Data" type="date" />
+        <br><br>
+        <fieldset>
+				<legend>Perfil</legend>
+				<input type="radio" id="Administrador" name="Perfil" />
+				<label for="masc">Administrador</label>
+				<input type="radio" id="Convidado" name="Perfil"/>
+				<label for="fem">Convidado</label>
+			</fieldset>
+        <br><br>
+        <label for="info">Obervação</label>
+        <br>
+		<textarea id="info"></textarea>
+        <br><br>
+        <legend>Módulos</legend>
+				<input type="radio" id="Compras" name="Módulos" />
+				<label for="masc">Compras</label>
+				<input type="radio" id="Biblioteca" name="Módulos"/>
+				<label for="fem">Biblioteca</label>
+                <input type="radio" id="Acadêmico" name="Módulos"/>
+				<label for="fem">Acadêmico</label>
+                <input type="radio" id="Documentação" name="Módulos"/>
+				<label for="fem">Documentação</label>
+                <input type="radio" id="Recursos_humanos" name="Módulos"/>
+				<label for="fem">Recursos Humanos</label>
+        <br><br>
+        <input type="reset" value="Limpar"/>
+		<input type="submit" />
+    </form>
+</body>
+</html>
